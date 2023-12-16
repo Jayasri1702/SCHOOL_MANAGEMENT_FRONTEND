@@ -1,0 +1,25 @@
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    margin: 40px;
+    text-align: center;
+    border: 1px solid #dbdada ;
+    box-shadow: 5px 0px 10px #b0afaf;;
+}
+
+
+
+.enterbtn{
+    padding: 2px 5px;
+    color: white;
+    border:0;
+    border-radius: 3px;
+}

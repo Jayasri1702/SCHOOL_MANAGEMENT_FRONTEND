@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+}
+
+
+.sidebar{
+    background-color: rgb(209, 208, 208);
+    height:100vh;
+    width:57px;
+    top:0;
+    
+    overflow: hidden;
+    transition: all 0.50s;
+}
+
+.sidebar:hover{
+    width:230px;
+}
+
+.stuicon{
+    font-size: 20px;
+    color:black;
+    /* word-spacing: 20px; */
+    margin: 5px 20px 5px 13px ;
+}
+
+.links{
+    display: flex;
+    margin: 10px 0;
+}
+
+.sidebar-text{
+    color:black;
+    margin-left:10px;
+    font-size: 18px;
+}
+
+
+.user-name{
+    text-align: right;
+    float: right;
+    margin: -50px 30px 0 0;
+    font-size: 22px;
+    font-weight:500;
+    cursor:pointer;
+    position: relative;
+    /* display: inline-block; */
+    
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+    right:0px;
+    padding:10px 0px;
+    border-radius: 2px ;
+  }
+
+  .dropdown-content a{
+    text-decoration: none;
+    color:black;
+    transition: all 1s;
+
+  }
+
+.dropdown:hover .dropdown-content {
+   background: rgb(227, 227, 227);
+
+   display: block;
+   width: 100%;
+   transition: all 1s;
+}
+
+/* __________________________________________ */
+/* Dropdown Button */
+
+  
+  /* The container <div> - needed to position the dropdown content */
+
+  .dropbtn1{
+    margin-left: -2px;
+  }
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    margin-left: 40px;
+    background-color: #f1f1f1;
+    padding:10px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    z-index: 1;
+  }
+
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+  }
+
+  .arrow{
+    margin:5px 0px 0 13px;
+  }
+  .arrow-up{
+    display: none;
+  }
+    
+    .dropdown1:hover .dropdown-content1  {display: block; }
+    .dropdown1:hover .arrow-up{
+        display: flex;
+    }
+    .dropdown1:hover .arrow-down{
+        display: none;
+    }
+  
+
+
+/* .main-content{
+    float:right;
+}
+
+.contents{
+    text-align: center;
+    background-color: wheat;
+} */

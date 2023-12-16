@@ -1,0 +1,76 @@
+*{
+    font-size:18px;
+}
+
+input,select,option,textarea{
+    border-radius: 5px;
+    border:1px solid grey;
+    padding:1px 5px;
+    outline: none;
+    /* -webkit-transition: 0.5s; */
+    transition: 0.1s;
+    
+}
+
+input:focus,select:focus,textarea:focus {
+    border: 2px solid grey;
+    box-shadow: 3px 3px 15px lightgrey;
+  }
+
+tr,td,th{
+    text-align: center;
+}
+
+
+
+
+.vertical-center {
+    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 65vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  #closebutton{
+      position: absolute;
+      color: white;
+      top: 80px;
+      right: 10px;
+      bottom:50px;
+      cursor:pointer;
+  }
+  /* #closebutton{
+    position: absolute;
+    margin-bottom: 5px;
+    float: right;
+    border-radius: 30px ;
+    height: 40px;
+    padding: 10px;
+    cursor:pointer;
+} */
+
+
+
+#add_class_form,#add_student_form,#add_teacher_form,#list-view-tables,.tt/* ,.time-table*/{ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(182, 182, 182);
+    padding:30px;
+    margin-bottom:15px;
+    
+}
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+
+td{
+    max-width: 250px;
+}
+
+.table-header{
+    padding: 10px;
+}
